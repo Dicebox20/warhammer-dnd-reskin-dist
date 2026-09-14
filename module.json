@@ -1,0 +1,144 @@
+{
+  "id": "warhammer-dnd-reskin",
+  "title": "Warhammer D&D Reskin",
+  "description": "A Warhammer 40,000 presentation and content module for the D&D5e system.",
+  "version": "0.0.17",
+  "authors": [
+    {
+      "name": "Warhammer D&D Project"
+    }
+  ],
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14.367"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.3.3",
+          "verified": "5.3.3"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "src/entry-runtime.js"
+  ],
+  "styles": [
+    "styles/warhammer-dnd.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "rules",
+      "label": "Warhammer D&D Rules",
+      "path": "packs/rules",
+      "type": "JournalEntry",
+      "private": false
+    },
+    {
+      "name": "species",
+      "label": "Warhammer Species",
+      "path": "packs/species",
+      "type": "Item",
+      "private": false
+    },
+    {
+      "name": "species-traits",
+      "label": "Warhammer Species Traits",
+      "path": "packs/species-traits",
+      "type": "Item",
+      "private": false
+    },
+    {
+      "name": "classes",
+      "label": "Warhammer Classes",
+      "path": "packs/classes",
+      "type": "Item",
+      "private": false
+    },
+    {
+      "name": "subclasses",
+      "label": "Warhammer Subclasses",
+      "path": "packs/subclasses",
+      "type": "Item",
+      "private": false
+    },
+    {
+      "name": "class-features",
+      "label": "Warhammer Class Features",
+      "path": "packs/class-features",
+      "type": "Item",
+      "private": false
+    },
+    {
+      "name": "backgrounds",
+      "label": "Warhammer Backgrounds",
+      "path": "packs/backgrounds",
+      "type": "Item",
+      "private": false
+    },
+    {
+      "name": "talents",
+      "label": "Warhammer Talents",
+      "path": "packs/talents",
+      "type": "Item",
+      "private": false
+    },
+    {
+      "name": "powers",
+      "label": "Warhammer Powers",
+      "path": "packs/powers",
+      "type": "Item",
+      "private": false
+    },
+    {
+      "name": "upgrades",
+      "label": "Warhammer Upgrades",
+      "path": "packs/upgrades",
+      "type": "Item",
+      "private": false
+    },
+    {
+      "name": "items",
+      "label": "Warhammer Items",
+      "path": "packs/items",
+      "type": "Item",
+      "private": false
+    },
+    {
+      "name": "rolltables",
+      "label": "Warhammer RollTables",
+      "path": "packs/rolltables",
+      "type": "RollTable",
+      "private": false
+    },
+    {
+      "name": "actors",
+      "label": "Warhammer Actors",
+      "path": "packs/actors",
+      "type": "Actor",
+      "private": false
+    },
+    {
+      "name": "narrative-routes",
+      "label": "Warhammer Narrative Routes",
+      "path": "packs/narrative-routes",
+      "type": "JournalEntry",
+      "private": false
+    }
+  ],
+  "url": "https://github.com/Dicebox20/warhammer-dnd-reskin-dist",
+  "readme": "https://github.com/Dicebox20/warhammer-dnd-reskin-dist",
+  "manifest": "https://raw.githubusercontent.com/Dicebox20/warhammer-dnd-reskin-dist/main/module.json",
+  "download": "https://github.com/Dicebox20/warhammer-dnd-reskin-dist/releases/download/v0.0.17/warhammer-dnd-reskin-v0.0.17.zip"
+}
