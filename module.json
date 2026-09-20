@@ -2,12 +2,13 @@
   "id": "warhammer-dnd-reskin",
   "title": "Warhammer D&D Reskin",
   "description": "A Warhammer 40,000 presentation and content module for the D&D5e system.",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "authors": [
     {
       "name": "Warhammer D&D Project"
     }
   ],
+  "license": "LICENSE.txt",
   "compatibility": {
     "minimum": "14",
     "verified": "14.367"
@@ -137,8 +138,8 @@
       "private": false
     }
   ],
-  "url": "https://github.com/Dicebox20/warhammer-dnd-reskin-dist",
-  "readme": "https://github.com/Dicebox20/warhammer-dnd-reskin-dist",
-  "manifest": "https://raw.githubusercontent.com/Dicebox20/warhammer-dnd-reskin-dist/main/module.json",
-  "download": "https://github.com/Dicebox20/warhammer-dnd-reskin-dist/releases/download/v0.0.18/warhammer-dnd-reskin-v0.0.18.zip"
+  "url": "http://127.0.0.1:30142/project",
+  "readme": "http://127.0.0.1:30142/README.md",
+  "manifest": "http://127.0.0.1:30142/module.json",
+  "download": "http://127.0.0.1:30142/warhammer-dnd-reskin-v0.0.19.zip"
 }
